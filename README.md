@@ -52,12 +52,6 @@ python run_all.py
 This script:
 - Starts all 3 services (`db`, `business`, `client`)
 - Waits for them to be healthy
-- Populates the database with an article
-- Calls the client service to generate a summary
-- Outputs the result
-
-To stop: Press `ENTER`
-
 ---
 
 ## 🔗 Endpoints Summary
