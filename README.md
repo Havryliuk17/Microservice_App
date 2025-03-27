@@ -14,7 +14,7 @@ This project demonstrates a complete microservice-based architecture for article
 .
 ├── client_service.py         # Handles authentication, orchestration
 ├── business_service.py       # Calls the LLM to summarize article text
-├── db_service.py             # In-memory article store with CRUD endpoints
+├── db_service.py             # In-memory article store
 ├── run_all.py                # Starts all services and demonstrates end-to-end flow
 ├── use.py                    # Example usage: populates DB and calls /summarize
 ├── .env.example              # Environment variable template
