@@ -38,7 +38,7 @@ Create a `.env` file in your root directory with this content:
 APP_TOKEN=mysecrettoken123
 OPENROUTER_API_KEY=your_openrouter_key_here
 ```
-You can rename env to .env and replace the placeholder values with your actual credentials.
+You can rename `env` to `.env` and replace the placeholder values with your actual credentials.
 ### 3. ▶️ Start the Services
 
 To launch all services in one go:
