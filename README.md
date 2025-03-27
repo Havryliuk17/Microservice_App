@@ -99,6 +99,20 @@ The **Client Service** requires a token to access the `/summarize` endpoint.
 
 ---
 
+## 🔁 Request Flow Summary
+
+Here’s how a request flows through the microservices:
+
+1. The **client** calls `POST /summarize` on the **Client Service**
+2. The Client Service:
+   - Validates the token
+   - Retrieves the article from the **Database Service** (`GET /read`)
+   - Sends the article body to the **Business Logic Service** (`POST /process`)
+   - Updates the article with the summary in the **Database Service** (`POST /update`)
+3. The summarized result is returned to the **client**
+
+---
+
 ## 🧪 Testing the Flow
 
 Use the provided script:
@@ -110,10 +124,3 @@ This will:
 - Call the summarization flow for article ID `1`
 - Print the resulting summary
 
----
-
-## 📌 Notes
-
-- All services run on `localhost` using ports `8000`, `8001`, and `8002`
-- Article `id` is auto-incremented
-- Article `title` is non-unique
