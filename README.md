@@ -83,10 +83,6 @@ This script:
 | `/health`      | GET    | Health check                             |
 | `/summarize`   | POST   | Requires token, summarizes article by ID |
 
-**Usage:**
-```bash
-curl -X POST "http://localhost:8000/summarize?id=1&authorization=mysecrettoken123"
-```
 
 ---
 
