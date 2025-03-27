@@ -37,8 +37,6 @@ Create a `.env` file in your root directory with this content:
 ```env
 APP_TOKEN=mysecrettoken123
 OPENROUTER_API_KEY=your_openrouter_key_here
-OPENROUTER_API_URL=https://openrouter.ai/api/v1/chat/completions
-MODEL=mistralai/mistral-small-3.1-24b-instruct:free
 ```
 
 > Do not commit this file. A `.env.example` is included.
