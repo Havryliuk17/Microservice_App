@@ -1,0 +1,9 @@
+# Token used to authorize access to the Client Service
+APP_TOKEN=mysecrettoken123
+
+# API key for calling OpenRouter (LLM provider)
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+DB_URL = f"http://localhost:8001"
+BL_URL = f"http://localhost:8002"
+CLIENT_URL = f"http://localhost:8000"
