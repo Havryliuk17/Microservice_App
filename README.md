@@ -18,7 +18,6 @@ This project demonstrates a complete microservice-based architecture for article
 ├── run_all.py                # Starts all services and demonstrates end-to-end flow
 ├── use.py                    # Example usage: populates DB and calls /summarize
 ├── .env.example              # Environment variable template
-└── README.md                 # This file
 ```
 
 ---
