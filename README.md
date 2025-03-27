@@ -120,3 +120,11 @@ This will:
 - Call the summarization flow for article ID `1`
 - Print the resulting summary
 
+```json
+{
+  "status": "success",
+  "id": 1,
+  "title": "The Rise of AI",
+  "summary": "..."
+}
+```
