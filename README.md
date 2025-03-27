@@ -39,8 +39,6 @@ APP_TOKEN=mysecrettoken123
 OPENROUTER_API_KEY=your_openrouter_key_here
 ```
 
----
-
 ### 3. ▶️ Start the Services
 
 To launch all services in one go:
@@ -52,6 +50,9 @@ python run_all.py
 This script:
 - Starts all 3 services (`db`, `business`, `client`)
 - Waits for them to be healthy
+
+You can stop the services by pressing enter.
+
 ---
 
 ## 🔗 Endpoints Summary
@@ -93,6 +94,8 @@ The **Client Service** requires a token to access the `/summarize` endpoint.
 - The token can be passed via **query param**: `?authorization=mysecrettoken123`
 - The expected token is stored in `.env` as `APP_TOKEN`
 
+If the provided token does not match the `APP_TOKEN` in your `.env`, the request will be rejected with a `401 Unauthorized` error.
+
 ---
 
 ## 🔁 Request Flow Summary
@@ -124,5 +127,9 @@ This will:
 {"status":"success",
 "id":1,
 "title":"The Rise of AI",
-"summary":"Artificial Intelligence (AI) has seen remarkable progress in the past decade, significantly impacting various sectors, including healthcare and finance. AI's capacity to learn from data and enhance its performance continually has made it an indispensable tool for tackling intricate challenges and fostering global innovation.\n\nAI now plays a pivotal role in solving complex problems and driving advancements across the globe. Its applications span a wide range of industries, underscoring its potential to reshape the future landscape of technology and business."}
+"summary":"Artificial Intelligence (AI) has seen remarkable progress in the past decade, significantly impacting various sectors,
+including healthcare and finance. AI's capacity to learn from data and enhance its performance continually has made it an
+indispensable tool for tackling intricate challenges and fostering global innovation.\n\nAI now plays a pivotal role in
+solving complex problems and driving advancements across the globe. Its applications span a wide range of industries,
+underscoring its potential to reshape the future landscape of technology and business."}
 ```
