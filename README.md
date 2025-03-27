@@ -121,10 +121,8 @@ This will:
 - Print the resulting summary
 
 ```json
-{
-  "status": "success",
-  "id": 1,
-  "title": "The Rise of AI",
-  "summary": "..."
-}
+{"status":"success",
+"id":1,
+"title":"The Rise of AI",
+"summary":"Artificial Intelligence (AI) has seen remarkable progress in the past decade, significantly impacting various sectors, including healthcare and finance. AI's capacity to learn from data and enhance its performance continually has made it an indispensable tool for tackling intricate challenges and fostering global innovation.\n\nAI now plays a pivotal role in solving complex problems and driving advancements across the globe. Its applications span a wide range of industries, underscoring its potential to reshape the future landscape of technology and business."}
 ```
