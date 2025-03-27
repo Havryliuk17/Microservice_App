@@ -112,20 +112,6 @@ This will:
 
 ---
 
-## ✅ Requirements Checklist
-
-- [x] Three FastAPI microservices
-- [x] Health endpoints on all services
-- [x] Root `/` endpoints with descriptions
-- [x] Token-based authentication
-- [x] Business logic calls LLM via API (OpenRouter)
-- [x] Client orchestrates read → summarize → update → return
-- [x] `.env` used for secrets/config
-- [x] Example usage script provided
-- [x] Run-all script included
-
----
-
 ## 📌 Notes
 
 - All services run on `localhost` using ports `8000`, `8001`, and `8002`
