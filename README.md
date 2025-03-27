@@ -39,8 +39,6 @@ APP_TOKEN=mysecrettoken123
 OPENROUTER_API_KEY=your_openrouter_key_here
 ```
 
-> Do not commit this file. A `.env.example` is included.
-
 ---
 
 ### 3. ▶️ Start the Services
